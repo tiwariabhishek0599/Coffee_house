@@ -1,0 +1,78 @@
+body{
+    background-color: rgb(165, 42, 42, 0.2);
+    width: 100vw;
+    margin: 0%;
+}
+.navbar{
+    margin: 0;
+    height: 300px;
+    width: 100vw;
+    background: url("https://i.pinimg.com/736x/e1/c2/3a/e1c23ac34847740f672717c89a62ae37.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 40px;
+    box-shadow: 0px 0px 8px black;
+}
+input{
+    position: sticky;
+    height: 40px;
+    width: 70%;
+    background-color: #631212;
+    color: white;
+    border-radius: 10px;
+    align-items: center;
+    top: 60px;
+    left: 15%;
+    border:none;
+    padding: 10px;;
+}
+main{
+    display:block;
+}
+.CoffeeImage{
+    display: flex;
+    justify-content: space-evenly; 
+    align-items: center;
+}
+.CoffeeImage > div{
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    color: rgba(0, 0, 0, 0.8);
+}
+.img{
+    width: 150px;
+    height: 150px;
+}
+img{
+   height: 100%;
+   width: 100%;
+    border-radius: 50%;
+    box-shadow: 0px 8px 8px black; 
+}
+img:hover{
+    height: 155px;
+    width: 155px;
+}
+.content{
+    width: 85%;
+    margin: auto;
+    margin-block: 50px;
+    background-color: rgb(165, 42, 42, 0.3);
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 8px brown;
+    
+}
+.content{
+   color: brown; 
+}
+p{
+    line-height: 20px;
+    margin-top: 0%;
+}
+.list{
+    padding: 5px;
+    line-height: 15px;
+}
